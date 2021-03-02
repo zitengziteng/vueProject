@@ -1,10 +1,24 @@
-# 管理后台
-管理后台
+# jingdong
 
-文件上上传功能  2021/1-6
-今天再写  文件解析  晚上在上传代码；
+## Project setup
+```
+npm install
+```
 
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-1》文件上传
-2》与js 红宝书计划
-3》
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
