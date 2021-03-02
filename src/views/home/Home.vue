@@ -22,7 +22,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .wrapper {
   // 列表  滚动时候  溢出； 加个滚动条
   overflow-y: auto;
