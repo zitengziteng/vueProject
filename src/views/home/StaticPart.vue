@@ -21,6 +21,7 @@
      v-for="item in iconsList"
      :key="item.desc"
     >
+    <!-- ``  字符 -->
       <img
         class="icons__item__img"
         :src="`http://www.dell-lee.com/imgs/vue3/${item.imgName}.png`"
@@ -48,19 +49,6 @@ export default {
       {imgName:"超市", desc: '签到'},
       {imgName:"超市", desc: '大牌免运'},
       {imgName:"超市", desc: '红包套餐'},
-      // {
-      //   id: 0,
-      //   imgUrl:["http://www.dell-lee.com/imgs/vue3/banner.jpg","http://www.dell-lee.com/imgs/vue3/超市.png","http://www.dell-lee.com/imgs/vue3/菜市场.png",
-      //   "http://www.dell-lee.com/imgs/vue3/水果店.png","http://www.dell-lee.com/imgs/vue3/水果店.png","http://www.dell-lee.com/imgs/vue3/水果店.png","http://www.dell-lee.com/imgs/vue3/水果店.png"
-      //   ],
-      //   descs:['超市便利','菜市场','','','','','','','','',]
-      // },{
-      //   id: 1,
-      //   imgUrl:["http://www.dell-lee.com/imgs/vue3/banner.jpg","http://www.dell-lee.com/imgs/vue3/超市.png","http://www.dell-lee.com/imgs/vue3/菜市场.png",
-      //   "http://www.dell-lee.com/imgs/vue3/水果店.png","http://www.dell-lee.com/imgs/vue3/水果店.png","http://www.dell-lee.com/imgs/vue3/水果店.png","http://www.dell-lee.com/imgs/vue3/水果店.png"
-      //   ],
-      //   descs:['超市便利','菜市场','水果店','鲜花绿植','医药健康','家居时尚','烘培蛋糕','签到','大牌免运','红包套餐',]
-      // }
     ];
     return {iconsList}
   }
